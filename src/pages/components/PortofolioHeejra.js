@@ -1,11 +1,11 @@
 /* This example requires Tailwind CSS v2.0+ */
 export default function PortofolioHeejra() {
   return (
-    <div className="bg-white">
+    <div className="bg-gradient-to-r from-hitam via-hitam to-merah">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
           <div>
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-extrabold text-putih sm:text-5xl">
               Our Portofolio, Our Best Projects
             </h2>
             <p className="mt-3 max-w-3xl text-lg text-gray-500">
@@ -18,43 +18,36 @@ export default function PortofolioHeejra() {
             <div className="col-span-1 flex justify-center py-8 px-8 bg-putih">
               <img
                 className="max-h-12"
-                src="https://tailwindui.com/img/logos/transistor-logo-gray-400.svg"
-                alt="Workcation"
+                src="https://seeklogo.com/images/B/belvita-logo-A589F3559F-seeklogo.com.png"
+                alt="Belvita"
+              />
+            </div>
+            <div className="col-span-1 flex justify-center py-8 px-8 bg-putih">
+              <img
+                className="max-h-20"
+                src="https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Cadbury_Dairy_Milk_2015.png/200px-Cadbury_Dairy_Milk_2015.png"
+                alt="Dairy Milk"
               />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-putih">
               <img
                 className="max-h-12"
-                src="https://tailwindui.com/img/logos/mirage-logo-gray-400.svg"
-                alt="Mirage"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Kraft_logo.svg/1280px-Kraft_logo.svg.png"
+                alt="Kraft"
               />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-putih">
               <img
                 className="max-h-12"
-                src="https://tailwindui.com/img/logos/tuple-logo-gray-400.svg"
-                alt="Tuple"
+                src="https://www.tonikum.co.id/sites/g/files/vrxlpx40291/files/Tonikum%20Logo%20New%201.png"
+                alt="Toni kumbayer"
               />
             </div>
             <div className="col-span-1 flex justify-center py-8 px-8 bg-putih">
               <img
                 className="max-h-12"
-                src="https://tailwindui.com/img/logos/laravel-logo-gray-400.svg"
-                alt="Laravel"
-              />
-            </div>
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-putih">
-              <img
-                className="max-h-12"
-                src="https://tailwindui.com/img/logos/statickit-logo-gray-400.svg"
-                alt="StaticKit"
-              />
-            </div>
-            <div className="col-span-1 flex justify-center py-8 px-8 bg-putih">
-              <img
-                className="max-h-12"
-                src="https://tailwindui.com/img/logos/statamic-logo-gray-400.svg"
-                alt="Statamic"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Philips_logo_new.svg/1280px-Philips_logo_new.svg.png"
+                alt="Philips"
               />
             </div>
           </div>

@@ -2,6 +2,7 @@
 import { CheckCircleIcon } from "@heroicons/react/solid";
 import Image from "next/image";
 import LogoHeejra from "../../images/heejra-logo-2.png";
+import Link from "next/link";
 
 const includedFeatures = [
   "Event & Media Consultant",
@@ -16,7 +17,10 @@ export default function Service() {
       <div className="pt-12 sm:pt-16 lg:pt-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-extrabold text-putih sm:text-4xl lg:text-6xl">
+            <h2
+              className="text-3xl font-extrabold text-putih sm:text-4xl lg:text-6xl"
+              data-aos="zoom-in"
+              data-aos-delay="400">
               Service
             </h2>
             {/* <p className="mt-4 text-xl text-gray-300">
@@ -29,7 +33,10 @@ export default function Service() {
       <div className="mt-8 bg-hitam pb-16 sm:mt-12 sm:pb-20 lg:pb-28">
         <div className="relative">
           <div className="absolute inset-0 h-1/2 bg-hitam" />
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div
+            className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+            data-aos="zoom-in-right"
+            data-aos-transition="">
             <div className="max-w-lg mx-auto rounded-lg shadow-lg overflow-hidden lg:max-w-none lg:flex">
               <div className="flex-1 bg-white px-6 py-8 lg:p-12">
                 <h3 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
@@ -81,11 +88,16 @@ export default function Service() {
                 </div>
                 <div className="mt-6">
                   <div className="rounded-md shadow">
-                    <a
+                    <Link
+                      href="/dashboard/services"
+                      className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900">
+                      Detail Service
+                    </Link>
+                    {/* <a
                       href="#"
                       className="flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-800 hover:bg-gray-900">
                       Detail Services
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>

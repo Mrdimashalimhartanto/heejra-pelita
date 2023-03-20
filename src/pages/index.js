@@ -1,3 +1,4 @@
+import Contact from "./components/Contact";
 import CTAHeejra from "./components/CTAHeejra";
 import CTAHeejra2 from "./components/CTAHeejra2";
 import Footer from "./components/Footer";
@@ -15,6 +16,7 @@ export default function Home() {
       <Service />
       <ProductHeejra />
       <PortofolioHeejra />
+      <Contact />
       <Footer />
     </>
   );

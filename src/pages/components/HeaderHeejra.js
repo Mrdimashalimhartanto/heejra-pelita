@@ -7,10 +7,10 @@ import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { ChevronRightIcon } from "@heroicons/react/solid";
 
 const navigation = [
-  { name: "Home", href: "#" },
-  { name: "About Us", href: "#" },
-  { name: "Service", href: "#" },
-  { name: "Contact", href: "#" },
+  { name: "Home", href: "/" },
+  { name: "About Us", href: "/dashboard/aboutus" },
+  { name: "Service", href: "/dashboard/services" },
+  //   { name: "Contact", href: "/dashboard/contact" },
 ];
 
 export default function HeaderHeejra() {
@@ -55,16 +55,11 @@ export default function HeaderHeejra() {
               </div>
             </div>
             <div className="hidden md:flex md:items-center md:space-x-6">
-              <a
-                href="#"
-                className="text-base font-medium text-white hover:text-gray-300">
-                Log in
-              </a>
-              <a
+              {/* <a
                 href="#"
                 className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md text-white bg-gray-600 hover:bg-merah">
                 Start free trial
-              </a>
+              </a> */}
             </div>
           </nav>
         </div>
@@ -80,14 +75,15 @@ export default function HeaderHeejra() {
           <Popover.Panel
             focus
             className="absolute z-10 top-0 inset-x-0 p-2 transition transform origin-top md:hidden">
-            <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
+            <div className="rounded-lg shadow-md bg-gray-600 ring-1 ring-black ring-opacity-5 overflow-hidden">
               <div className="px-5 pt-4 flex items-center justify-between">
                 <div>
-                  <img
+                  <Image src={LogoHeejra} className="h-8 w-auto" />
+                  {/* <img
                     className="h-8 w-auto"
                     src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
                     alt=""
-                  />
+                  /> */}
                 </div>
                 <div className="-mr-2">
                   <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-600">
@@ -102,25 +98,10 @@ export default function HeaderHeejra() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50">
+                      className="block px-3 py-2 rounded-md text-base font-medium text-putih hover:bg-merah">
                       {item.name}
                     </a>
                   ))}
-                </div>
-                <div className="mt-6 px-5">
-                  <a
-                    href="#"
-                    className="block text-center w-full py-3 px-4 rounded-md shadow bg-indigo-600 text-white font-medium hover:bg-indigo-700">
-                    Start free trial
-                  </a>
-                </div>
-                <div className="mt-6 px-5">
-                  <p className="text-center text-base font-medium text-gray-500">
-                    Existing customer?{" "}
-                    <a href="#" className="text-gray-900 hover:underline">
-                      Login
-                    </a>
-                  </p>
                 </div>
               </div>
             </div>
@@ -137,22 +118,36 @@ export default function HeaderHeejra() {
                   <a
                     href="#"
                     className="inline-flex items-center text-white bg-black rounded-full p-1 pr-2 sm:text-base lg:text-sm xl:text-base hover:text-gray-200">
-                    <span className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-merah rounded-full">
+                    <span
+                      className="px-3 py-0.5 text-white text-xs font-semibold leading-5 uppercase tracking-wide bg-merah rounded-full"
+                      data-aos="fade-up-right"
+                      data-aos-delay="700">
                       PT. Heejra Pelita Inspirasi
                     </span>
                   </a>
                   <h1 className="mt-4 text-4xl tracking-tight font-extrabold text-merah sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl uppercase">
-                    <span className="block">Welcome to</span>
-                    <span className="block text-putih">
+                    <span
+                      className="block"
+                      data-aos="fade-left"
+                      data-aos-delay="800">
+                      Welcome to
+                    </span>
+                    <span
+                      className="block text-putih"
+                      data-aos="fade-right"
+                      data-aos-delay="700">
                       Heejra Pelita Inspirasi.
                     </span>
                   </h1>
-                  <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                  <p
+                    className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl"
+                    data-aos="fade-down"
+                    data-aos-delay="200">
                     Heejra Pelita Inspirasi memiliki arti, berkumpulnya
                     individu-individu kreatif dengan semangat berkarya hingga
                     menginspirasi.
                   </p>
-                  <div className="mt-10 sm:mt-12">
+                  {/* <div className="mt-10 sm:mt-12">
                     <form action="#" className="sm:max-w-xl sm:mx-auto lg:mx-0">
                       <div className="sm:flex">
                         <div className="min-w-0 flex-1">
@@ -183,7 +178,7 @@ export default function HeaderHeejra() {
                         .
                       </p>
                     </form>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">

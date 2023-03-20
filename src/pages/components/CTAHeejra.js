@@ -20,13 +20,27 @@ export default function CTAHeejra() {
       </div>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
         <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-          <h2 className="text-sm font-bold tracking-wide uppercase">
-            <span className="bg-merah bg-clip-text text-transparent">
+          <h2
+            className="text-sm font-bold tracking-wide uppercase"
+            data-aos="fade-right"
+            data-aos-delay="700">
+            <span
+              className="bg-merah bg-clip-text text-transparent"
+              data-aos="fade-right"
+              data-aos-delay="700">
               PT HEEJRA PELITA INSPIRASI
             </span>
           </h2>
-          <p className="mt-3 text-3xl font-extrabold text-white">About Us</p>
-          <p className="mt-5 text-lg text-gray-300">
+          <p
+            className="mt-3 text-3xl font-extrabold text-white"
+            data-aos="fade-right"
+            data-aos-delay="700">
+            About Us
+          </p>
+          <p
+            className="mt-5 text-lg text-gray-300"
+            data-aos="fade-down-right"
+            data-aos-delay="700">
             Kami lahir dari sinergi individu-individu kreatif, yang terbangun
             dari kesempatan berkolaborasi dalam berbagai aktifitas project.
             Pengalaman berkarya bersama lebih dari satu decade, kami sepakat

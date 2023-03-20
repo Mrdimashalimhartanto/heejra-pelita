@@ -13,13 +13,22 @@ export default function CTAHeejra2() {
       </div>
       <div className="relative max-w-9xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
         <div className="md:ml-auto md:w-1/2 md:pl-10">
-          <h2 className="text-base font-bold uppercase tracking-wider text-merah">
+          <h2
+            className="text-base font-bold uppercase tracking-wider text-merah"
+            data-aos="fade-down-left"
+            data-aos-delay="500">
             PT HEEJRA PELITA INSPIRASI
           </h2>
-          <p className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">
+          <p
+            className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl"
+            data-aos="fade-down"
+            data-aos-delay="600">
             Who Are We ?
           </p>
-          <p className="mt-3 text-lg text-gray-300">
+          <p
+            className="mt-3 text-lg text-gray-300"
+            data-aos="fade-left"
+            data-aos-delay="700">
             Visi & Misi ( Memorable message & Creative Strategic) Mampu mengolah
             project yang out of the box, creative, sehingga mampu menghibur, dan
             menimbulkan kesan, tersampaikannya sebuah pesan sesuai harapan dan
@@ -29,7 +38,7 @@ export default function CTAHeejra2() {
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
-              <a
+              {/* <a
                 href="#"
                 className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-50">
                 Visit the help center
@@ -37,7 +46,7 @@ export default function CTAHeejra2() {
                   className="-mr-1 ml-3 h-5 w-5 text-gray-400"
                   aria-hidden="true"
                 />
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

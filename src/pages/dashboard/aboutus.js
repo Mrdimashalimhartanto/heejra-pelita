@@ -18,6 +18,7 @@ import pencegahan from "../../images/pencegahan.png";
 import rapatkordinasi from "../../images/rapat-kordinasi.jpg";
 import CTAVisi from "../components/CTAVisi";
 import NavbarAboutus from "../components/NavbarAboutus";
+import Client from "../components/Client";
 
 function aboutus() {
   return (
@@ -52,6 +53,7 @@ function aboutus() {
         </Swiper>
       </div>
       <br />
+      <Client />
       <Footer />
     </div>
   );

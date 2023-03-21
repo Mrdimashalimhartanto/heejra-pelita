@@ -15,7 +15,7 @@ export default function Home() {
       <CTAHeejra2 />
       <Service />
       <ProductHeejra />
-      <PortofolioHeejra />
+      {/* <PortofolioHeejra /> */}
       <Contact />
       <Footer />
     </>

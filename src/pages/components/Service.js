@@ -42,11 +42,11 @@ export default function Service() {
                 <h3 className="text-2xl font-extrabold text-gray-900 sm:text-3xl">
                   Service yang tersedia di Heejra
                 </h3>
-                <p className="mt-6 text-base text-gray-500">
+                {/* <p className="mt-6 text-base text-gray-500">
                   Lorem ipsum dolor sit amet consect etur adipisicing elit.
                   Itaque amet indis perferendis blanditiis repellendus etur
                   quidem assumenda.
-                </p>
+                </p> */}
                 <div className="mt-8">
                   <div className="flex items-center">
                     <h4 className="flex-shrink-0 pr-4 bg-white text-sm tracking-wider font-semibold uppercase text-hitam">

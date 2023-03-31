@@ -19,7 +19,7 @@ export default function NewsLatter() {
     <div className="bg-white py-16 sm:py-24">
       <div className="relative sm:py-16">
         <div aria-hidden="true" className="hidden sm:block">
-          <div className="absolute inset-y-0 left-0 w-1/2 bg-gray-50 rounded-r-3xl" />
+          <div className="absolute inset-y-0 left-0 w-1/2 bg-white rounded-r-3xl" />
           <svg
             className="absolute top-8 left-1/2 -ml-3"
             width={404}
@@ -52,7 +52,7 @@ export default function NewsLatter() {
           </svg>
         </div>
         <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-          <div className="relative rounded-2xl px-6 py-10 bg-merah overflow-hidden shadow-xl sm:px-12 sm:py-20">
+          <div className="relative rounded-2xl px-6 py-10 bg-biru overflow-hidden shadow-xl sm:px-12 sm:py-20">
             <div
               aria-hidden="true"
               className="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">
@@ -63,12 +63,12 @@ export default function NewsLatter() {
                 fill="none"
                 viewBox="0 0 1463 360">
                 <path
-                  className="text-hitam text-opacity-40"
+                  className="text-putih text-opacity-40"
                   fill="currentColor"
                   d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z"
                 />
                 <path
-                  className="text-hitam text-opacity-40"
+                  className="text-putih text-opacity-40"
                   fill="currentColor"
                   d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z"
                 />
@@ -76,10 +76,10 @@ export default function NewsLatter() {
             </div>
             <div className="relative">
               <div className="sm:text-center">
-                <h2 className="text-3xl font-extrabold text-white tracking-tight sm:text-4xl">
+                <h2 className="text-3xl font-extrabold text-black tracking-tight sm:text-4xl">
                   Dapatkan notifikasi mengenai Produk & Service terbaru kami
                 </h2>
-                <p className="mt-6 mx-auto max-w-2xl text-lg text-putih">
+                <p className="mt-6 mx-auto max-w-2xl text-lg text-black">
                   Silahkan masukan email anda untuk mendapatkan notifikasi dari
                   kami mengenai beberapa service & produk terbaru kami
                 </p>
@@ -99,7 +99,7 @@ export default function NewsLatter() {
                 <div className="mt-4 sm:mt-0 sm:ml-3">
                   <button
                     type="submit"
-                    className="block w-full rounded-md border border-transparent px-5 py-3 bg-hitam text-base font-medium text-white shadow hover:bg-yellow-800 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10">
+                    className="block w-full rounded-md border border-transparent px-5 py-3 bg-black text-base font-medium text-white shadow hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10">
                     Dapatkan Notif
                   </button>
                 </div>

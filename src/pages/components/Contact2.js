@@ -11,7 +11,7 @@ export default function Contact2() {
               PT HEEJRA PELITA INSPIRASI
             </h2>
             <div className="mt-3">
-              <p className="text-lg text-putih">
+              <p className="text-lg text-black">
                 Tomang Taya Blok mm Kav 557 No51E lt3 rt1/01 kec Grogol
                 Petamburan Jakbar 11440 heejrapelitainspirasi@gmail.com
               </p>
@@ -20,22 +20,19 @@ export default function Contact2() {
               <div className="flex">
                 <div className="flex-shrink-0">
                   <PhoneIcon
-                    className="h-6 w-6 text-gray-400"
+                    className="h-6 w-6 text-black"
                     aria-hidden="true"
                   />
                 </div>
-                <div className="ml-3 font-bold text-putih">
+                <div className="ml-3 font-bold text-black">
                   <p>0878-7836-9407</p>
                 </div>
               </div>
               <div className="mt-6 flex">
                 <div className="flex-shrink-0">
-                  <MailIcon
-                    className="h-6 w-6 text-gray-400"
-                    aria-hidden="true"
-                  />
+                  <MailIcon className="h-6 w-6 text-black" aria-hidden="true" />
                 </div>
-                <div className="ml-3 font-bold text-putih">
+                <div className="ml-3 font-bold text-black">
                   <p>pelitainspirasiheejra@gmail.com</p>
                 </div>
               </div>
@@ -48,16 +45,18 @@ export default function Contact2() {
             <div className="mt-9">
               <div className="flex">
                 <div className="flex-shrink-0"></div>
-                <div className="ml-3 text-base text-putih">
-                  <p>Event & Media Consultant</p>
-                  <p className="mt-1 text-putih">
+                <div className="ml-3 text-base">
+                  <p className="text-biru font-bold">
+                    Event & Media Consultant
+                  </p>
+                  <p className="mt-1 text-black">
                     Event, Program TV, Branding Champaign, Profile, Promotion,
                     Sport, Entertaiment, Etc
                   </p>
                 </div>
-                <div className="ml-3 text-base text-putih">
-                  <p>Event Organizer</p>
-                  <p className="mt-1 text-putih">
+                <div className="ml-3 text-base text-black">
+                  <p className="text-biru font-bold">Event Organizer</p>
+                  <p className="mt-1 text-black">
                     Ceremonial, Seminary, Conference, Launching, Conrect,
                     Exibition, Gathering, Etc
                   </p>

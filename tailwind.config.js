@@ -11,8 +11,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        merah: "#FC0102",
-        hitam: "#000000",
+        biru: "#36B5FF",
         putih: "#F6F6F6",
       },
     },

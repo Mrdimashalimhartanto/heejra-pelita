@@ -65,9 +65,9 @@ const navigation = [
 
 export default function Footer() {
   return (
-    <footer className="bg-hitam">
+    <footer className="bg-gradient-to-r from-black via-biru to-biru">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
-        <div className="flex justify-center space-x-6 md:order-2">
+        {/* <div className="flex justify-center space-x-6 md:order-2">
           {navigation.map((item) => (
             <a
               key={item.name}
@@ -77,7 +77,7 @@ export default function Footer() {
               <item.icon className="h-6 w-6" aria-hidden="true" />
             </a>
           ))}
-        </div>
+        </div> */}
         <div className="mt-8 md:mt-0 md:order-1">
           <p className="text-center font-bold text-putih">
             &copy; 2023 PT Heejra Pelita Inspirasi, Inc. All rights reserved.

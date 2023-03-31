@@ -14,27 +14,24 @@ export default function CTAHeejra2() {
       <div className="relative max-w-9xl mx-auto px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
         <div className="md:ml-auto md:w-1/2 md:pl-10">
           <h2
-            className="text-base font-bold uppercase tracking-wider text-merah"
+            className="text-base font-bold uppercase tracking-wider text-merah text-black"
             data-aos="fade-down-left"
             data-aos-delay="500">
             PT HEEJRA PELITA INSPIRASI
           </h2>
           <p
-            className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl"
+            className="mt-2 text-black text-3xl font-extrabold tracking-tight sm:text-4xl uppercase"
             data-aos="fade-down"
             data-aos-delay="600">
-            Who Are We ?
+            Visi misi
           </p>
           <p
-            className="mt-3 text-lg text-gray-300"
+            className="mt-3 text-lg text-black font-bold"
             data-aos="fade-left"
             data-aos-delay="700">
-            Visi & Misi ( Memorable message & Creative Strategic) Mampu mengolah
-            project yang out of the box, creative, sehingga mampu menghibur, dan
-            menimbulkan kesan, tersampaikannya sebuah pesan sesuai harapan dan
-            keiginan customer. Memorable massage dibangun oleh kreatifitas team
-            work yang solid dan profesional yang memberikan kenyamanan dalam
-            bekerjasama dengan mitra.
+            Memorable message dibangun oleh kreatifitas team work yang solid dan
+            profesional yang memberikan kenyamanan dalam bekerjasama dengan
+            mitra
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">

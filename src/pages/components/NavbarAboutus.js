@@ -2,14 +2,14 @@ import LogoHeejra from "../../images/heejra-logo-2.png";
 import Image from "next/image";
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "About Us", href: "/dashboard/aboutus" },
+  //   { name: "About Us", href: "/dashboard/aboutus" },
   { name: "Service", href: "/dashboard/services" },
   //   { name: "Contact", href: "/dashboard/contact" },
 ];
 
 export default function NavbarAboutus() {
   return (
-    <header className="bg-hitam">
+    <header className="bg-biru">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
         <div className="w-full py-6 flex items-center justify-between lg:border-none">
           <div className="flex items-center">
@@ -26,7 +26,7 @@ export default function NavbarAboutus() {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-base font-bold text-putih hover:text-merah">
+                  className="text-base font-bold text-white hover:text-black">
                   {link.name}
                 </a>
               ))}
@@ -38,7 +38,7 @@ export default function NavbarAboutus() {
             <a
               key={link.name}
               href={link.href}
-              className="text-base font-medium text-putih hover:text-merah">
+              className="text-base font-medium text-white hover:text-black">
               {link.name}
             </a>
           ))}
